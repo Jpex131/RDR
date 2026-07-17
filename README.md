@@ -24,3 +24,23 @@ El archivo generado devolverá los datos con las columnas necesarias para que un
 Proveedor,Material_Buscado,Direccion,Latitud,Longitud,Detalle_Oferta
 "Suministros Arte & Arcilla","Clay / Arcilla para modelar","101 Creative Way, Ciudad",26.5628,-81.9495,"$15.00 / kg - En stock"
 "Pinturas y Pigmentos Sur","Pintura acrílica y óleos","204 Maker Blvd, Ciudad",26.5640,-81.9510,"Descuento mayorista disponible"
+
+## 🛠️ Cómo Utilizarlo
+*(En desarrollo)*
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/tu-usuario/tu-repo.git)
+
+   cd tu-repo
+# Instalar dependencias (ej. npm install o pip install -r requirements.txt)
+
+# Ejemplo de comando propuesto:
+# ./collect-data --query "clay suppliers near me" --output prueba-proveedores.csv
+```
+
+## 📌 Alcance del Proyecto (Roadmap)
+
+- [ ] Definir e implementar el método de extracción de datos (scraping de explorador o integración con API de mapas).
+- [ ] Procesar y limpiar los resultados para asegurar que las coordenadas (`Lat`, `Long`) sean numéricamente exactas para su uso en mapas.
+- [ ] Automatizar la exportación en `.csv` para facilitar la importación al entorno de desarrollo del proyecto principal.
